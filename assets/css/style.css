@@ -1,8 +1,15 @@
 #start {
 
     background-color:white;
+     
 }
 
+#result {
+
+    background-color: blanchedalmond;
+    padding: 10px;
+    width: 500px;
+}
 #question1 {
 
     background-color: aquamarine;

@@ -85,7 +85,8 @@ $(document).ready(function () {
         if (userAnswer.question3 === compAnswer.answer3) {
             score++;
         }
-        alert("Great Guessing! Here's your score: " + score + "/3");
+        // alert();
+        $("#result").html("Great Guessing! Here's your score: " + score + "/3")
 
         reset();
 
