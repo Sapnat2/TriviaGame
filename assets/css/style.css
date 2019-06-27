@@ -1,0 +1,37 @@
+#start {
+
+    background-color:white;
+}
+
+#question1 {
+
+    background-color: aquamarine;
+    padding: 10px;
+    width: 500px;
+}
+#question2 {
+
+    background-color: #a2a2e7;
+    padding: 10px;
+    width: 500px;
+}
+
+#question3 {
+
+    background-color: #a4ddb5;
+    padding: 10px;
+    width: 500px;
+}
+#game {
+    /* display: none; could also work but the difference is the space that this element would occupy does not show up wheras with visbility: hidden; it Would show that empty placeholder space- */
+    visibility: hidden;
+}
+
+
+#timer {
+
+    background-color: aqua;
+    padding: 10px;
+    width: 500px;
+
+}
