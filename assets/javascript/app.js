@@ -30,6 +30,7 @@ $(document).ready(function () {
     $("#start").on("click", function() {
         $("#landingImage").css("display", "none");
         $("#game").css("visibility", "visible");
+        $("#result").html("");
         intervalId = setInterval(function() {
         //1) we want to decrement the number, 2)show that number on the screen
         //compare the timer to 0, if it equals 0 alert the player Time's Up
